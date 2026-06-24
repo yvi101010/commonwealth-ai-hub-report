@@ -26,7 +26,7 @@
           <p>${stage.misread}</p>
         </div>
       </div>
-      <p class="source-line">來源提示：${stage.source}</p>
+      <p class="source-line"></p>
     `;
   }
 
