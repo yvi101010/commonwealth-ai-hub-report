@@ -809,3 +809,6 @@ button {
     padding-right: 14px;
   }
 }
+.evidence-card small {
+  display: none;
+}
