@@ -1059,3 +1059,71 @@ img[src*="seo-to-aeo-funnel"] {
   background: rgba(255, 255, 255, 0.75);
   font-size: 0.88rem;
 }
+/* === 採編流程下方兩段說明：改成有色重點卡片 === */
+
+.workflow-summary-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.workflow-summary-card {
+  position: relative;
+  padding: 24px 26px 24px 28px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 14px 28px rgba(28, 32, 36, 0.06);
+}
+
+.workflow-summary-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 7px;
+  height: 100%;
+}
+
+.workflow-summary-card span {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.workflow-summary-card p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--ink);
+}
+
+/* 左邊：棕色系 */
+.workflow-summary-card-brown {
+  background: linear-gradient(135deg, rgba(255, 248, 237, 0.95), rgba(255, 255, 255, 0.78));
+}
+
+.workflow-summary-card-brown::before,
+.workflow-summary-card-brown span {
+  background: #a65f2b;
+}
+
+/* 右邊：深綠色系 */
+.workflow-summary-card-green {
+  background: linear-gradient(135deg, rgba(236, 246, 241, 0.95), rgba(255, 255, 255, 0.78));
+}
+
+.workflow-summary-card-green::before,
+.workflow-summary-card-green span {
+  background: #1f6b57;
+}
+
+@media (max-width: 760px) {
+  .workflow-summary-cards {
+    grid-template-columns: 1fr;
+  }
+}
