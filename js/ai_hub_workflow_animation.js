@@ -8,28 +8,33 @@
   }
 
   function detailMarkup(stage) {
-    const agentTags = stage.agents.map((agent) => `<span>${agent}</span>`).join("");
-    return `
-      <p class="detail-kicker">對應 Agent</p>
-      <div class="agent-tags">${agentTags}</div>
-      <div class="detail-grid">
-        <div>
-          <h4>AI 可以協助</h4>
-          <p>${stage.aiCan}</p>
-        </div>
-        <div>
-          <h4>人仍然負責</h4>
-          <p>${stage.humanStill}</p>
-        </div>
-        <div>
-          <h4>容易誤解</h4>
-          <p>${stage.misread}</p>
-        </div>
-      </div>
-      <p class="source-line"></p>
-    `;
-  }
+  const agentTags = stage.agents.map((agent) => `<span>${agent}</span>`).join("");
 
+  return `
+    <div class="workflow-detail-inner">
+      <div class="agent-box">
+        <p class="detail-label">對應 Agent</p>
+        <div class="agent-tags">${agentTags}</div>
+      </div>
+
+      <div class="workflow-mini-card">
+        <h4>AI 可以協助</h4>
+        <p>${stage.aiCan}</p>
+      </div>
+
+      <div class="workflow-mini-card">
+        <h4>人仍然負責</h4>
+        <p>${stage.humanStill}</p>
+      </div>
+
+      <div class="workflow-mini-card">
+        <h4>容易誤解</h4>
+        <p>${stage.misread}</p>
+      </div>
+    </div>
+  `;
+}
+  
   window.renderWorkflow = function renderWorkflow(map) {
     const rail = document.querySelector("[data-workflow-rail]");
     const detail = document.querySelector("[data-workflow-detail]");
