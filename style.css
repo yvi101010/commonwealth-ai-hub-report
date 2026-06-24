@@ -862,3 +862,54 @@ img[src*="seo-to-aeo-funnel"] {
 .source-line {
   display: none !important;
 }
+/* === 採編流程右側說明框：讓文字不要靠上，改成垂直置中、字稍微放大 === */
+.workflow-detail {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-height: 398px !important;
+  padding: 34px 36px !important;
+}
+
+.workflow-detail h4 {
+  margin: 18px 0 8px !important;
+  font-size: 1.15rem !important;
+}
+
+.workflow-detail p {
+  font-size: 1.06rem !important;
+  line-height: 1.85 !important;
+}
+
+.workflow-detail .agent-tags {
+  margin-bottom: 26px !important;
+}
+
+.workflow-detail .detail-grid {
+  gap: 20px !important;
+}
+/* === 人工審核閘門：圖片拿掉後改成單欄置中、文字加寬放大 === */
+.review-gate {
+  display: grid !important;
+  grid-template-columns: minmax(0, 860px) !important;
+  justify-content: center !important;
+  padding: 34px 40px !important;
+}
+
+.review-gate > div {
+  max-width: 860px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.review-gate h3 {
+  font-size: 1.65rem !important;
+  margin-bottom: 16px !important;
+}
+
+.review-gate p {
+  font-size: 1.1rem !important;
+  line-height: 1.95 !important;
+  text-align: left !important;
+}
