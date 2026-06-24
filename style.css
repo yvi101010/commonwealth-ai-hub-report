@@ -812,3 +812,50 @@ button {
 .evidence-card small {
   display: none;
 }
+/* === 隱藏指定頁面的裝飾圖片，並讓文字區塊置中放大 === */
+
+/* 1. 隱藏官方 AI / 個人 AI 天秤、人工審核閘門、SEO 到 AEO 相關圖片 */
+img[src*="trust-balance-scale"],
+img[src*="ai-governance-balance"],
+img[src*="human-review-gate"],
+img[src*="aeo-zero-click-hole"],
+img[src*="seo-to-aeo-funnel"] {
+  display: none !important;
+}
+
+/* 2. 隱藏圖片外面的空白框，避免圖片消失後留一個空盒子 */
+:where(figure, .figure, .visual, .visual-card, .visual-panel, .image-card, .media-card, .diagram, .diagram-card, .side-visual, .illustration, .art-card):has(img[src*="trust-balance-scale"]),
+:where(figure, .figure, .visual, .visual-card, .visual-panel, .image-card, .media-card, .diagram, .diagram-card, .side-visual, .illustration, .art-card):has(img[src*="ai-governance-balance"]),
+:where(figure, .figure, .visual, .visual-card, .visual-panel, .image-card, .media-card, .diagram, .diagram-card, .side-visual, .illustration, .art-card):has(img[src*="human-review-gate"]),
+:where(figure, .figure, .visual, .visual-card, .visual-panel, .image-card, .media-card, .diagram, .diagram-card, .side-visual, .illustration, .art-card):has(img[src*="aeo-zero-click-hole"]),
+:where(figure, .figure, .visual, .visual-card, .visual-panel, .image-card, .media-card, .diagram, .diagram-card, .side-visual, .illustration, .art-card):has(img[src*="seo-to-aeo-funnel"]) {
+  display: none !important;
+}
+
+/* 3. 圖片移除後，讓該區塊不要一邊空白，文字改成置中寬版 */
+:where(section, .section, .content-section, .story-section, .slide, .panel-grid, .two-column, .split, .section-grid):has(img[src*="trust-balance-scale"]),
+:where(section, .section, .content-section, .story-section, .slide, .panel-grid, .two-column, .split, .section-grid):has(img[src*="ai-governance-balance"]),
+:where(section, .section, .content-section, .story-section, .slide, .panel-grid, .two-column, .split, .section-grid):has(img[src*="human-review-gate"]),
+:where(section, .section, .content-section, .story-section, .slide, .panel-grid, .two-column, .split, .section-grid):has(img[src*="aeo-zero-click-hole"]),
+:where(section, .section, .content-section, .story-section, .slide, .panel-grid, .two-column, .split, .section-grid):has(img[src*="seo-to-aeo-funnel"]) {
+  grid-template-columns: minmax(0, 860px) !important;
+  justify-content: center !important;
+}
+
+/* 4. 讓留下來的文字不要太窄 */
+:where(section, .section, .content-section, .story-section, .slide):has(img[src*="trust-balance-scale"]) > *,
+:where(section, .section, .content-section, .story-section, .slide):has(img[src*="ai-governance-balance"]) > *,
+:where(section, .section, .content-section, .story-section, .slide):has(img[src*="human-review-gate"]) > *,
+:where(section, .section, .content-section, .story-section, .slide):has(img[src*="aeo-zero-click-hole"]) > *,
+:where(section, .section, .content-section, .story-section, .slide):has(img[src*="seo-to-aeo-funnel"]) > * {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 5. 圖片拿掉後，這幾頁的內文字稍微放大一點 */
+#governance p,
+#aeo p {
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
