@@ -998,3 +998,64 @@ img[src*="seo-to-aeo-funnel"] {
 .evidence-card > span:first-child {
   display: none !important;
 }
+/* === 採編流程右側說明框：改成小卡片，減少留白 === */
+
+.workflow-detail {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-height: 398px !important;
+  padding: 28px 30px !important;
+}
+
+.workflow-detail-inner {
+  display: grid;
+  gap: 14px;
+}
+
+.agent-box {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--rust);
+  padding: 14px 16px;
+}
+
+.detail-label {
+  margin: 0 0 10px !important;
+  font-size: 0.9rem !important;
+  font-weight: 800;
+  color: var(--rust);
+  letter-spacing: 0.04em;
+}
+
+.workflow-mini-card {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  padding: 15px 17px;
+}
+
+.workflow-mini-card h4 {
+  margin: 0 0 8px !important;
+  font-size: 1rem !important;
+  color: var(--ink);
+}
+
+.workflow-mini-card p {
+  margin: 0 !important;
+  font-size: 1.02rem !important;
+  line-height: 1.75 !important;
+}
+
+.workflow-detail .agent-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.workflow-detail .agent-tags span {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 0.88rem;
+}
