@@ -41,7 +41,7 @@ function renderEvidenceCards(items) {
           <span>${item.type}</span>
           <h3>${item.title}</h3>
           <p>${item.text}</p>
-          <small>${item.source}</small>
+          
         </article>
       `
     )
