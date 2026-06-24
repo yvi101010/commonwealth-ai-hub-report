@@ -950,3 +950,47 @@ img[src*="seo-to-aeo-funnel"] {
   max-width: 920px !important;
   margin: 32px auto 0 !important;
 }
+/* === SEO 到 AEO 區塊：整體置中，避免右邊太空 === */
+
+/* 1. 讓這一頁的標題區塊不要太靠左 */
+#section-4 .section-heading {
+  max-width: 980px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 2. 讓標題下方那句重點文字變寬一點、視覺更集中 */
+#section-4 .section-heading .takeaway {
+  max-width: 920px !important;
+  font-size: 1.18rem !important;
+  line-height: 1.9 !important;
+}
+
+/* 3. 把原本左右兩欄改成單欄，整個文字區塊置中 */
+#section-4 .media-split,
+#section-4 .media-split.reverse {
+  display: block !important;
+  max-width: 920px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 4. 讓細內文不要只窄窄一欄，而是變成置中的寬版文字 */
+#section-4 .narrative {
+  max-width: 920px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 28px 34px !important;
+}
+
+/* 5. 細內文字稍微放大，讀起來比較像簡報重點 */
+#section-4 .narrative p {
+  font-size: 1.12rem !important;
+  line-height: 1.95 !important;
+}
+
+/* 6. 如果這頁還殘留圖片或圖片框，直接隱藏 */
+#section-4 img,
+#section-4 .figure-band {
+  display: none !important;
+}
