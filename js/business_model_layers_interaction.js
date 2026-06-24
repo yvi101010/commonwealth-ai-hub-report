@@ -16,7 +16,7 @@
           <dd>${layer.boundary}</dd>
         </div>
       </dl>
-      <p class="source-line">來源提示：${layer.source}</p>
+     
     `;
   }
 
