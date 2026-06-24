@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 470" role="img" aria-labelledby="title desc">
+  <title id="title">商業模式三層證據圖</title>
+  <desc id="desc">價值創造、價值交付與價值擷取三層證據界線。</desc>
+  <rect width="1180" height="470" fill="#f7f4ee"/>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="70" y="70" font-size="28" font-weight="700">商業模式三層證據圖</text>
+    <text x="70" y="102" font-size="15" fill="#59666f">先拆證據層級，再判斷能說到哪裡。</text>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif">
+    <rect x="120" y="155" width="940" height="76" rx="8" fill="#d9e2df" stroke="#40515c"/>
+    <rect x="170" y="245" width="840" height="76" rx="8" fill="#e7ded0" stroke="#7b7467"/>
+    <rect x="220" y="335" width="740" height="76" rx="8" fill="#ead1c2" stroke="#9a4d3b"/>
+    <text x="590" y="188" font-size="24" font-weight="700" text-anchor="middle" fill="#20262b">價值創造：已明顯改變</text>
+    <text x="590" y="214" font-size="15" text-anchor="middle" fill="#59666f">採編前處理、中介工序、內容優化被平台化</text>
+    <text x="590" y="278" font-size="24" font-weight="700" text-anchor="middle" fill="#20262b">價值交付：已開始改變</text>
+    <text x="590" y="304" font-size="15" text-anchor="middle" fill="#59666f">SEO／AEO 與 AI 搜尋入口成為可見度戰場</text>
+    <text x="590" y="368" font-size="24" font-weight="700" text-anchor="middle" fill="#20262b">價值擷取：尚未證明重組</text>
+    <text x="590" y="394" font-size="15" text-anchor="middle" fill="#59666f">主要收入結構仍未被證明因 AI Hub 明顯改變</text>
+  </g>
+</svg>

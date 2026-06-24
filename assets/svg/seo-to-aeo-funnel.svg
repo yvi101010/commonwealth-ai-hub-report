@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 470" role="img" aria-labelledby="title desc">
+  <title id="title">SEO 到 AEO 漏斗圖</title>
+  <desc id="desc">傳統搜尋漏斗與 AI Overview 漏斗的差異。</desc>
+  <rect width="1180" height="470" fill="#f7f4ee"/>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="70" y="70" font-size="28" font-weight="700">從 SEO 到 AEO：入口被重新分配</text>
+    <text x="70" y="102" font-size="15" fill="#59666f">左側是流量回站的舊漏斗；右側是 AI 摘要先介入的新漏斗。</text>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif">
+    <text x="210" y="148" font-size="20" font-weight="700" fill="#2f3d46" text-anchor="middle">Before：SEO</text>
+    <path d="M80 175h260l-38 60H118z" fill="#d9e2df" stroke="#40515c"/>
+    <path d="M118 248h184l-34 60H152z" fill="#c9d8d5" stroke="#40515c"/>
+    <path d="M152 321h116l-28 60h-60z" fill="#b8cbc8" stroke="#40515c"/>
+    <text x="210" y="212" font-size="18" text-anchor="middle" fill="#20262b">搜尋</text>
+    <text x="210" y="285" font-size="18" text-anchor="middle" fill="#20262b">點擊網站</text>
+    <text x="210" y="358" font-size="18" text-anchor="middle" fill="#20262b">閱讀與轉換</text>
+    <text x="650" y="148" font-size="20" font-weight="700" fill="#2f3d46" text-anchor="middle">After：AEO／AI Overview</text>
+    <path d="M470 175h360l-54 60H524z" fill="#e8ddcf" stroke="#9a4d3b"/>
+    <path d="M524 248h252l-60 60H584z" fill="#decbbb" stroke="#9a4d3b"/>
+    <path d="M584 321h132l-38 60h-56z" fill="#d0b5a6" stroke="#9a4d3b"/>
+    <text x="650" y="212" font-size="18" text-anchor="middle" fill="#20262b">提問</text>
+    <text x="650" y="285" font-size="18" text-anchor="middle" fill="#20262b">AI 摘要先整理</text>
+    <text x="650" y="358" font-size="18" text-anchor="middle" fill="#20262b">可能不回站</text>
+    <g transform="translate(890 196)">
+      <circle cx="78" cy="78" r="76" fill="#20262b"/>
+      <circle cx="78" cy="78" r="44" fill="#101418"/>
+      <path d="M0 30c40 20 70 38 112 88" fill="none" stroke="#c7765b" stroke-width="5"/>
+      <path d="M4 72c48 10 78 18 126 54" fill="none" stroke="#5f8790" stroke-width="5"/>
+      <text x="78" y="185" font-size="15" text-anchor="middle" fill="#20262b">零點擊風險</text>
+    </g>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif">
+    <rect x="70" y="410" width="1040" height="34" rx="8" fill="#20262b"/>
+    <text x="590" y="433" font-size="16" fill="#ffffff" text-anchor="middle">被看見，不等於被點擊；被引用，不等於被變現。</text>
+  </g>
+</svg>

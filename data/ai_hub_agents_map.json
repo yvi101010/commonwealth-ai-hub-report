@@ -1,0 +1,69 @@
+{
+  "workflowTitle": "AI Hub 智慧採編全流程圖",
+  "warningText": "這張圖呈現人機協作的採編節點，不代表 AI 可以自動完成採訪、判斷、查證與發布。",
+  "stages": [
+    {
+      "id": "collect",
+      "stage": "資料蒐集",
+      "agents": ["採訪全紀鹿", "數據檢查猿"],
+      "aiCan": "整理逐字稿、初步分段、標記資料疑點，協助記者從大量訪談與背景材料中找到可追蹤線索。",
+      "humanStill": "決定哪些資訊可信、哪些需要再訪，並回到現場或消息來源補查。",
+      "misread": "不是把網路資料拼成稿，而是縮短整理與比對時間。",
+      "source": "interview_transcript.txt:3-10"
+    },
+    {
+      "id": "direction",
+      "stage": "準備題目方向",
+      "agents": ["議題發想雞", "關鍵 SE 鷗"],
+      "aiCan": "提供題目線索、關鍵字與類似報導脈絡，讓送題前的準備更有結構。",
+      "humanStill": "評估題目是否有新聞性、獨特角度與可查證的現場入口。",
+      "misread": "AI 產出的題目常被認為太像 AI，需要記者與編輯修整。",
+      "source": "interview_transcript.txt:89-95"
+    },
+    {
+      "id": "draft",
+      "stage": "寫稿",
+      "agents": ["論點分析獅"],
+      "aiCan": "檢查架構、協助順稿，提醒論點是否跳躍或證據不足。",
+      "humanStill": "下筆、取捨材料、建立敘事節奏與採訪現場感。",
+      "misread": "寫作責任沒有交給 AI；AI 只是中途檢查與整理的工具。",
+      "source": "deep_analysis.txt:33-39"
+    },
+    {
+      "id": "verify",
+      "stage": "核稿",
+      "agents": ["數據檢查猿"],
+      "aiCan": "提醒數據、年份、名詞與論點是否需要補充確認。",
+      "humanStill": "查核來源、回頭比對訪談與公開資料，確認可發布。",
+      "misread": "AI 的提醒不等於查證完成，仍須人工核對。",
+      "source": "supplement_analysis.txt:97-101"
+    },
+    {
+      "id": "revise",
+      "stage": "改稿",
+      "agents": ["論點分析獅", "標題超吸鯨"],
+      "aiCan": "協助潤稿、標題方向與導言重整，讓重點更清楚。",
+      "humanStill": "保留媒體語氣、判斷標題是否過度簡化或偏離事實。",
+      "misread": "標題優化不是追求聳動，而是讓內容更容易被理解與找到。",
+      "source": "deep_analysis.txt:23-27"
+    },
+    {
+      "id": "review",
+      "stage": "審稿",
+      "agents": ["人工審核閘門"],
+      "aiCan": "彙整待檢查處與可能風險，讓審稿更有清單感。",
+      "humanStill": "編輯與記者共同負責最後判斷、查證與揭露邊界。",
+      "misread": "人工審核不是流程裝飾，而是發布前的底線。",
+      "source": "supplement_analysis.txt:97-101"
+    },
+    {
+      "id": "publish",
+      "stage": "發通路",
+      "agents": ["AEO 流量密馬", "關鍵 SE 鷗"],
+      "aiCan": "提供 SEO 關鍵字、AEO 結構與 AI 搜尋可見度建議。",
+      "humanStill": "決定通路策略、標題表述與是否符合新聞倫理與品牌信任。",
+      "misread": "被 AI 看見不等於被點擊，被引用也不等於變現。",
+      "source": "interview_transcript.txt:33-51"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 430" role="img" aria-labelledby="title desc">
+  <title id="title">轉型邊界總結圖</title>
+  <desc id="desc">工作流程、組織協作、流量入口與收入結構四層判斷。</desc>
+  <rect width="1180" height="430" fill="#f7f4ee"/>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="70" y="70" font-size="28" font-weight="700">轉型邊界總結圖</text>
+    <text x="70" y="102" font-size="15" fill="#59666f">AI Hub 改變的深度不一致，必須分層判斷。</text>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif">
+    <rect x="110" y="290" width="220" height="70" rx="8" fill="#d9e2df" stroke="#40515c"/>
+    <rect x="350" y="240" width="220" height="120" rx="8" fill="#e7ded0" stroke="#7b7467"/>
+    <rect x="590" y="190" width="220" height="170" rx="8" fill="#d8dde6" stroke="#4d5d77"/>
+    <rect x="830" y="140" width="220" height="220" rx="8" fill="#ead1c2" stroke="#9a4d3b"/>
+    <text x="220" y="322" font-size="20" font-weight="700" text-anchor="middle" fill="#20262b">工作流程</text>
+    <text x="220" y="345" font-size="15" text-anchor="middle" fill="#59666f">已明顯改變</text>
+    <text x="460" y="282" font-size="20" font-weight="700" text-anchor="middle" fill="#20262b">組織協作</text>
+    <text x="460" y="305" font-size="15" text-anchor="middle" fill="#59666f">正在形成</text>
+    <text x="700" y="252" font-size="20" font-weight="700" text-anchor="middle" fill="#20262b">流量入口</text>
+    <text x="700" y="275" font-size="15" text-anchor="middle" fill="#59666f">已經換軌</text>
+    <text x="940" y="225" font-size="20" font-weight="700" text-anchor="middle" fill="#20262b">收入結構</text>
+    <text x="940" y="248" font-size="15" text-anchor="middle" fill="#59666f">尚未證明重組</text>
+  </g>
+  <path d="M120 382h950" stroke="#20262b" stroke-width="3"/>
+</svg>

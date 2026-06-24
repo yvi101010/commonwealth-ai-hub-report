@@ -1,0 +1,51 @@
+[
+  {
+    "id": "workload",
+    "title": "一線記者的日常工作量",
+    "source": "interview_transcript.txt:3-6",
+    "type": "訪談觀察",
+    "text": "受訪記者每月約產出 3 篇文章，每篇約 1,800 到 3,000 字，一年約 36 到 40 篇，並參與約 3 到 4 個封面故事。工作不只是在辦公桌前寫稿，也包含海內外、線上線下與電話採訪。"
+  },
+  {
+    "id": "personal-tools",
+    "title": "公司 AI 與個人 AI 並行",
+    "source": "interview_transcript.txt:12-23",
+    "type": "訪談觀察",
+    "text": "公司端提供付費 Gemini、逐字稿網站與編輯台 AI 工具；第一線記者仍會並用 ChatGPT、NotebookLM、Gemini、Claude。這不是不配合，而是標準化流程與個人工作手感之間的拉扯。"
+  },
+  {
+    "id": "workflow-change",
+    "title": "從 Excel 選題到後台 AI 協助",
+    "source": "interview_transcript.txt:89-95",
+    "type": "訪談觀察",
+    "text": "過去選題可能靠 Excel 管理題目程度、角度與獨特性；AI 導入後，內部網站後台已有改版，送題前可以選擇是否讓 AI 協助發想與檢索類似報導。"
+  },
+  {
+    "id": "aeo-monthly",
+    "title": "月報新增 AI 搜尋資料",
+    "source": "interview_transcript.txt:33-51",
+    "type": "訪談觀察",
+    "text": "過去主要看 SEO，現在每月流量分析新增 AI 搜尋與 AEO 觀察，也會比較《天下》與競媒在 AI 搜尋中的出現比例。內容不只要被 Google 抓到，也要被 AI Overview 與 AI 搜尋辨識。"
+  },
+  {
+    "id": "human-review",
+    "title": "正式發布仍由人把關",
+    "source": "deep_analysis.txt:35-39; supplement_analysis.txt:97-101",
+    "type": "資料對照",
+    "text": "AI 可協助整理、發想、檢查與優化，但最後下筆、判斷、查證、審稿與發布責任仍由記者與編輯承擔。AI Hub 不是自動寫稿機。"
+  },
+  {
+    "id": "business-boundary",
+    "title": "收入結構尚未被證明重組",
+    "source": "interview_transcript.txt:117-126; supplement_analysis.txt:108-119",
+    "type": "訪談觀察與補充分析",
+    "text": "受訪者指出，目前主要仍走傳統模式，廣告仍是重要收入來源；AI Hub 導入後，收入結構沒有明顯改變。比較穩當的判斷是：底層運作邏輯先改，收入表尚未被證明改寫。"
+  },
+  {
+    "id": "trust-shift",
+    "title": "信任單位從媒體品牌延伸到記者專業",
+    "source": "interview_transcript.txt:95-103; teacher_notes_image.txt:3-7",
+    "type": "訪談觀察與老師建議",
+    "text": "AI 與 KOL 內容變多後，讀者更在意內容由誰生產、是否真的進現場、能不能查證並負責。《天下》開始要求記者自介更完整，包含得獎、跑線、專長與經歷。"
+  }
+]

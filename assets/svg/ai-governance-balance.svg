@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 430" role="img" aria-labelledby="title desc">
+  <title id="title">官方 AI 與個人 AI 治理天平</title>
+  <desc id="desc">公司官方 AI 模板與個人 AI 工具之間的治理拉扯。</desc>
+  <rect width="1180" height="430" fill="#f7f4ee"/>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="70" y="70" font-size="28" font-weight="700">官方 AI vs 個人 AI 治理天平</text>
+    <text x="70" y="102" font-size="15" fill="#59666f">過渡期的重點不是服不服從，而是標準化治理與記者工作手感如何並存。</text>
+  </g>
+  <g stroke="#40515c" stroke-width="4" fill="none">
+    <path d="M590 145v190"/>
+    <path d="M300 185h580"/>
+    <path d="M300 185l-95 135h190z"/>
+    <path d="M880 185l-95 135h190z"/>
+    <path d="M510 335h160"/>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="300" y="350" text-anchor="middle" font-size="22" font-weight="700">公司官方 AI</text>
+    <text x="300" y="376" text-anchor="middle" font-size="15" fill="#59666f">模板、治理、格式一致</text>
+    <text x="880" y="350" text-anchor="middle" font-size="22" font-weight="700">個人 AI 工具</text>
+    <text x="880" y="376" text-anchor="middle" font-size="15" fill="#59666f">彈性、靈感、工作手感</text>
+    <rect x="492" y="118" width="196" height="54" rx="8" fill="#20262b"/>
+    <text x="590" y="153" text-anchor="middle" font-size="18" fill="#ffffff">人工審核閘門</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 420" role="img" aria-labelledby="title desc">
+  <title id="title">AI Hub 採編流程圖</title>
+  <desc id="desc">七個採編工序與 AI Agent 協作節點，最後由人工審核把關。</desc>
+  <rect width="1180" height="420" fill="#f4f1eb"/>
+  <g fill="none" stroke="#2f3d46" stroke-width="2">
+    <path d="M98 210h980"/>
+    <path d="M100 210c60-90 130-90 190 0s130 90 190 0 130-90 190 0 130 90 190 0 130-90 220 0" opacity=".24"/>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <text x="70" y="70" font-size="28" font-weight="700">AI Hub 智慧採編全流程</text>
+    <text x="70" y="102" font-size="15" fill="#59666f">AI 協助前處理與中介工序；採訪、判斷、查證與發布責任仍由人承擔。</text>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" font-size="15" text-anchor="middle">
+    <g transform="translate(100 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">資料蒐集</text>
+      <text y="20" font-size="12" fill="#6b6f61">採訪全紀鹿</text>
+    </g>
+    <g transform="translate(260 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">準備題目</text>
+      <text y="20" font-size="12" fill="#6b6f61">議題發想雞</text>
+    </g>
+    <g transform="translate(420 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">寫稿</text>
+      <text y="20" font-size="12" fill="#6b6f61">論點分析獅</text>
+    </g>
+    <g transform="translate(580 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">核稿</text>
+      <text y="20" font-size="12" fill="#6b6f61">數據檢查猿</text>
+    </g>
+    <g transform="translate(740 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">改稿</text>
+      <text y="20" font-size="12" fill="#6b6f61">標題超吸鯨</text>
+    </g>
+    <g transform="translate(900 210)">
+      <circle r="42" fill="#ffffff" stroke="#9a4d3b" stroke-width="3"/>
+      <text y="-4" font-weight="700">審稿</text>
+      <text y="20" font-size="12" fill="#9a4d3b">人工閘門</text>
+    </g>
+    <g transform="translate(1060 210)">
+      <circle r="42" fill="#ffffff" stroke="#40515c" stroke-width="2"/>
+      <text y="-4" font-weight="700">發通路</text>
+      <text y="20" font-size="12" fill="#6b6f61">AEO／SEO</text>
+    </g>
+  </g>
+  <g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" fill="#20262b">
+    <rect x="72" y="315" width="1036" height="56" rx="8" fill="#e7ded0" stroke="#c9bca8"/>
+    <text x="96" y="349" font-size="16" font-weight="700">關鍵界線：</text>
+    <text x="184" y="349" font-size="16">AI 讓資料整理、選題準備、架構檢查與通路建議更快；最後的新聞責任仍停在人身上。</text>
+  </g>
+</svg>

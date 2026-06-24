@@ -1,0 +1,81 @@
+{
+  "funnel": {
+    "before": {
+      "label": "Before：SEO 搜尋漏斗",
+      "steps": ["搜尋", "點擊網站", "閱讀文章", "廣告曝光／訂閱轉換"],
+      "note": "媒體的核心任務是讓 Google 找到文章、爭取排名與點擊，再把流量帶回站內。"
+    },
+    "after": {
+      "label": "After：AEO／AI Overview 漏斗",
+      "steps": ["提問或平台瀏覽", "AI 摘要先整理", "媒體可能被引用", "不一定點回原站"],
+      "note": "內容可能先被答案引擎摘要，曝光、信任與回站流量不再是同一件事。"
+    },
+    "warning": "被看見，不等於被點擊；被引用，不等於被變現。"
+  },
+  "businessLayers": [
+    {
+      "id": "creation",
+      "layer": "價值創造",
+      "status": "已明顯改變",
+      "claim": "資料整理、逐字稿分析、標題優化、內容供給效率與 AEO 建議已被平台化。",
+      "evidence": "AI Hub 把採編流程拆成逐字稿整理、議題發想、論點檢查、標題與 SEO／AEO 建議等節點。",
+      "boundary": "流程更快不代表新聞專業被替代；判斷、採訪與查證仍由人負責。",
+      "source": "deep_analysis.txt:23-39"
+    },
+    {
+      "id": "delivery",
+      "layer": "價值交付",
+      "status": "已開始改變",
+      "claim": "SEO／AEO、AI Overview 與 AI 搜尋可見度正在改變內容被發現、被引用與被理解的方式。",
+      "evidence": "月報新增 AI 搜尋資料，並比較《天下》與競媒在 AI 搜尋結果中的出現比例。",
+      "boundary": "AEO 還不能直接等同流量成長或收入成長。",
+      "source": "interview_transcript.txt:33-51"
+    },
+    {
+      "id": "capture",
+      "layer": "價值擷取",
+      "status": "尚未證明重組",
+      "claim": "主要收入結構尚未被證明因 AI Hub 明顯改變。",
+      "evidence": "訪談指出目前仍多走傳統模式，廣告仍是重要收入來源，AI Hub 導入後收入結構沒有明顯改變。",
+      "boundary": "不能把流程效率提升直接寫成商業模式已完成再造。",
+      "source": "interview_transcript.txt:117-126"
+    }
+  ],
+  "boundarySummary": [
+    {
+      "id": "work",
+      "title": "工作流程",
+      "status": "已明顯改變",
+      "text": "逐字稿、資料整理、架構檢查、標題與 AEO 建議被模組化。"
+    },
+    {
+      "id": "org",
+      "title": "組織協作",
+      "status": "正在形成",
+      "text": "後台改版、數位營運部回收使用回饋，跨部門協作開始出現。"
+    },
+    {
+      "id": "traffic",
+      "title": "流量入口",
+      "status": "已經換軌",
+      "text": "SEO 之外，AI Overview、AI 搜尋與答案引擎可見度成為新入口。"
+    },
+    {
+      "id": "revenue",
+      "title": "收入結構",
+      "status": "尚未證明重組",
+      "text": "目前不能說 AI Hub 已改寫主要收入來源。"
+    }
+  ],
+  "governance": {
+    "left": {
+      "title": "公司官方 AI 模板",
+      "points": ["付費 Gemini", "逐字稿網站", "編輯台 AI 工具", "固定模板與格式", "可追蹤、可治理"]
+    },
+    "right": {
+      "title": "個人 AI 工具",
+      "points": ["ChatGPT", "NotebookLM", "Gemini", "Claude", "激發觀點、補足盲點、貼合習慣"]
+    },
+    "gate": "正式發布前仍須人工審核、查證與編輯判斷，AI 不能直接發布內容。"
+  }
+}
