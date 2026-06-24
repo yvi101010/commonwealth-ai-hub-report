@@ -1127,3 +1127,42 @@ img[src*="seo-to-aeo-funnel"] {
     grid-template-columns: 1fr;
   }
 }
+/* === 第一部分七個方框：標題加上顏色與視覺重點 === */
+
+.evidence-card h3 {
+  display: block !important;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 16px !important;
+  padding: 8px 12px 8px 14px !important;
+  font-size: 1.18rem !important;
+  line-height: 1.45 !important;
+  font-weight: 800 !important;
+  color: #8a4f24 !important;
+  background: rgba(166, 95, 43, 0.11);
+  border-left: 5px solid #a65f2b;
+}
+
+/* 第二、五張：深綠色系，讓卡片有一點變化 */
+.evidence-card:nth-child(2) h3,
+.evidence-card:nth-child(5) h3 {
+  color: #1f6b57 !important;
+  background: rgba(31, 107, 87, 0.11);
+  border-left-color: #1f6b57;
+}
+
+/* 第三、六張：藍灰色系，讓畫面不會全部同色 */
+.evidence-card:nth-child(3) h3,
+.evidence-card:nth-child(6) h3 {
+  color: #34495e !important;
+  background: rgba(52, 73, 94, 0.11);
+  border-left-color: #34495e;
+}
+
+/* 第四、七張：棕紅色系，跟整體暖色背景搭配 */
+.evidence-card:nth-child(4) h3,
+.evidence-card:nth-child(7) h3 {
+  color: #9a3f2f !important;
+  background: rgba(154, 63, 47, 0.11);
+  border-left-color: #9a3f2f;
+}
