@@ -913,3 +913,40 @@ img[src*="seo-to-aeo-funnel"] {
   line-height: 1.95 !important;
   text-align: left !important;
 }
+/* === SEO 到 AEO 區塊：圖片拿掉後，改成置中寬版文字 === */
+
+/* 1. 如果 SEO 到 AEO 區塊還有殘留圖片，先隱藏 */
+#section-4 .media-split.reverse > img,
+#section-4 .figure-band {
+  display: none !important;
+}
+
+/* 2. 把原本左右兩欄改成單欄置中 */
+#section-4 .media-split.reverse {
+  grid-template-columns: minmax(0, 920px) !important;
+  justify-content: center !important;
+  gap: 0 !important;
+}
+
+/* 3. 讓小內文區塊變寬、置中，避免右邊空一大塊 */
+#section-4 .media-split.reverse .narrative {
+  max-width: 920px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 30px 34px !important;
+  background: rgba(255, 255, 255, 0.52);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--rust);
+}
+
+/* 4. 讓小內文字稍微變大、行距更舒服 */
+#section-4 .media-split.reverse .narrative p {
+  font-size: 1.13rem !important;
+  line-height: 1.95 !important;
+}
+
+/* 5. 讓下面 SEO / AEO 互動框也跟著置中，不要太散 */
+#section-4 .funnel-widget.compact {
+  max-width: 920px !important;
+  margin: 32px auto 0 !important;
+}
