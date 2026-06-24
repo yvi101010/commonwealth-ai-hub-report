@@ -994,3 +994,7 @@ img[src*="seo-to-aeo-funnel"] {
 #section-4 .figure-band {
   display: none !important;
 }
+/* === 隱藏第一部分七個證據卡片上方的小標籤 === */
+.evidence-card > span:first-child {
+  display: none !important;
+}
